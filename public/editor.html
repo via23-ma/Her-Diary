@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="editor.css">
+
+    <title>Document</title>
+</head>
+
+<header>
+    <div class="bar" id="bar ">
+        <div id="logo">
+            <div id="her">Her</div>
+            <div id="diary">Dairy</div>
+        </div>
+        <a href="login.html">
+            <input type="submit" value="Subscribe" id="signin">
+        </a>
+
+        <form class="searchbar ">
+            <input type="text" id="search" name="search" placeholder="Search Blog">
+            <input type="submit" value="go" id="submit">
+        </form>
+    </div>
+</header>
+
+<body>
+    <div class="upload_image">
+        <input type="file" accept="image/*" id="banner_upload" hidden>
+        <label for="banner_upload" class="upload_btn"><img src="/image/upload.png" alt=" " ></label>
+    </div>
+    <div class="content">
+        <textarea type="text" name=" " class="headline" placeholder="Write Headline here."></textarea>
+        <textarea type="text" name=" " class="text" placeholder="Start writing here..."></textarea>
+    </div>
+
+    <div class="blog_options">
+        <button class="btn_publish">Publish</button>
+        <input type="file" accept="image/*" id="btn_post" hidden>
+        <label for="btn_post" class="btn_upload_image">Upload Image</label>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js"></script>
+
+    <script src="firebase.js"></script>
+    <script type="module" src="editor.js" defer></script>
+
+</body>
+
+</html>

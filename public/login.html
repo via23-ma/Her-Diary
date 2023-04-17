@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="8157175480-el3erui44rl96ua7bir6rj6tn2k99jl2.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="logo">
+        <div id="her">Her</div>
+        <div id="diary">Dairy</div>
+    </div>
+
+    <div class="container">
+        <form action="">
+            <div class="login">Login Form</div>
+            <a href="home.html">
+                <div class="cross">&times;</div>
+            </a>
+            <div class="email">Email</div>
+            <input type="email" id="id" placeholder="Enter Email" required>
+            <div class="password">Password</div>
+            <input type="password" id="pass" placeholder="Enter Password" required>
+            <div class="checkbox">
+                <input type="checkbox" id="check">
+                <div class="remember">remember me</div>
+            </div>
+            <form action="home.html">
+                <input type="submit" value="SignIn" id="signin">
+            </form>
+            <div id="forgot">Forgot your password?</div>
+            <a href="">
+                <div id="account">Create new account</div>
+            </a>
+
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </form>
+    </div>
+</body>
+
+</html>

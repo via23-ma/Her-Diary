@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.bar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0px;
+}
+
+#logo {
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#her {
+    font: bold 50px georgia;
+    color: powderblue;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+#diary {
+    font: bold 25px georgia;
+    color: rgb(214, 132, 24);
+    margin-left: 40px;
+}
+
+.searchbar {
+    display: flex;
+    padding: 6px;
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.searchbar #search {
+    width: 200px;
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.searchbar #submit {
+    background-color: black;
+    width: 50px;
+    height: 55px;
+    font: bold 20px verdana;
+    color: powderblue;
+    top: 0;
+    box-shadow: rgb(255, 255, 255);
+}
+
+.searchbar #submit:hover {
+    background-color: rgb(92, 106, 110);
+    cursor: pointer;
+}
+
+#signin {
+    padding: 15px;
+    font-size: 18px;
+    background-color: black;
+    color: powderblue;
+    border: 1px rgb(255, 255, 255) solid;
+    font: bold 20px verdana;
+    margin: 6px;
+    float: right;
+}
+
+#signin:hover {
+    background-color: rgb(92, 106, 110);
+    cursor: pointer;
+}
+
+.line img {
+    margin-top: 0px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+
+#quote {
+    padding: 160px;
+    font: bold 40px verdana;
+    background-color: rgb(0, 0, 0);
+    color: powderblue;
+    text-align: center;
+    top: 0px;
+}
+
+.write {
+    position: absolute;
+    margin: 450px;
+    margin-left: 620px;
+    padding: 15px;
+    font: bold 30px verdana;
+    color: powderblue;
+    background-color: black;
+}
+
+.midbar {
+    background-color: lightgray;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home,
+#blogs,
+#recent,
+#popular,
+#about {
+    font: 15px arial;
+    color: slategray;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#blogs:hover,
+#recent:hover,
+#popular:hover,
+#about:hover {
+    background-color: rgb(214, 220, 224);
+}
+
+#home {
+    background-color: white;
+}
+
+#start {
+    font: bold 30px serif;
+    margin: 20px;
+}
+
+#part1,
+#part2,
+#part3,
+#part4,
+#part5,
+#part6,
+#part7 {
+    display: flex;
+    overflow: hidden;
+}
+
+#part1 img,
+#part3 img,
+#part5 img,
+#part7 img {
+    width: 40%;
+    height: 400px;
+    padding: 30px;
+    float: right;
+}
+
+#part2 img,
+#part4 img,
+#part6 img {
+    width: 40%;
+    height: 400px;
+    padding: 30px;
+    float: left;
+}
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7 {
+    padding: 120px;
+    font: bold 25px serif;
+    color: rgb(100, 175, 184);
+    display: flex;
+}
